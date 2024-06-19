@@ -38,7 +38,7 @@
         <section id="contact">
             <h2>اتصل بنا</h2>
             <form>
-                <label for="name">الاسم:</label>
+                <label for="name">just hani:</label>
                 <input type="text" id="name" name="name">
                 <label for="email">l9rch6404@gmail.com:</label>
                 <input type="email" id="email" name="email">
