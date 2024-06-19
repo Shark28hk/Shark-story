@@ -42,9 +42,7 @@
                 <input type="text" id="name" name="name">
                 <label for="email">l9rch6404@gmail.com:</label>
                 <input type="email" id="email" name="email">
-                <label for="message">رسالة:</label>
-                <textarea id="message" name="message"></textarea>
-                <button type="submit">إرسال</button>
+               
             </form>
         </section>
     </main>
