@@ -1,4 +1,4 @@
-# Shark-story
+#shark history
 <!DOCTYPE html>
 <html lang="ar">
 <head>
@@ -40,7 +40,7 @@
             <form>
                 <label for="name">الاسم:</label>
                 <input type="text" id="name" name="name">
-                <label for="email">البريد الإلكتروني:</label>
+                <label for="email">l9rch6404@gmail.com:</label>
                 <input type="email" id="email" name="email">
                 <label for="message">رسالة:</label>
                 <textarea id="message" name="message"></textarea>
@@ -53,63 +53,4 @@
     </footer>
     <script src="script.js"></script>
 </body>
-</html>body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background: #333;
-    color: #fff;
-    padding: 1em 0;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 1em;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-main {
-    padding: 2em;
-}
-
-section {
-    margin-bottom: 2em;
-}
-
-footer {
-    text-align: center;
-    padding: 1em 0;
-    background: #333;
-    color: #fff;
-}const puzzles = [
-    "ما هو الشيء الذي يقرصك دون أن تراه؟",
-    "ما هو الشيء الذي يمشي بلا رجلين ويبكي بلا عينين؟",
-    // ... أضف باقي الألغاز هنا
-    "ما هو الشيء الذي يمكنه أن يكون قاسيًا أو ناعمًا بدون تغير في قساوته؟"
-];
-
-function displayPuzzles() {
-    const puzzleList = document.getElementById('puzzle-list');
-    puzzles.forEach((puzzle, index) => {
-        const puzzleElement = document.createElement('div');
-        puzzleElement.classList.add('puzzle');
-        puzzleElement.innerHTML = `<p>${index + 1}. ${puzzle}</p>`;
-        puzzleList.appendChild(puzzleElement);
-    });
-}
-
-window.onload = displayPuzzles;
+</html>
